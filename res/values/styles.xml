@@ -1,2 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <style name="Theme.abstyles" parent="@style/Theme.Sherlock.Light">
+        <item name="actionBarItemBackground">@drawable/selectable_background_abstyles</item>
+        <item name="popupMenuStyle">@style/abstyles_PopupMenu</item>
+        <item name="dropDownListViewStyle">@style/abstyles_DropDownListView</item>
+        <item name="actionBarTabStyle">@style/abstyles_ActionBarTabStyle</item>
+        <item name="actionDropDownStyle">@style/abstyles_DropDownNav</item>
+        <item name="actionBarStyle">@style/abstyles_solid_ActionBar</item>
+
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_abstyles</item>
+        <item name="android:popupMenuStyle">@style/abstyles_PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/abstyles_DropDownListView</item>
+        <item name="android:actionBarTabStyle">@style/abstyles_ActionBarTabStyle</item>
+        <item name="android:actionDropDownStyle">@style/abstyles_DropDownNav</item>
+        <item name="android:actionBarStyle">@style/abstyles_solid_ActionBar</item>
+        <item name="android:panelBackground">@drawable/menu_hardkey_panel_abstyles</item>
+    </style>
+
+    <style name="abstyles_solid_ActionBar" parent="@style/Widget.Sherlock.Light.ActionBar.Solid">
+        <item name="background">@drawable/ab_solid_abstyles</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_abstyles</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_abstyles</item>
+        <item name="progressBarStyle">@style/abstyles_ProgressBar</item>
+        <item name="android:background">@drawable/ab_solid_abstyles</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_abstyles</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_abstyles</item>
+        <item name="android:progressBarStyle">@style/abstyles_ProgressBar</item>
+    </style>
+
+    <style name="abstyles_transparent_ActionBar" parent="@style/Widget.Sherlock.Light.ActionBar">
+        <item name="background">@drawable/ab_transparent_abstyles</item>
+        <item name="progressBarStyle">@style/abstyles_ProgressBar</item>
+
+        <item name="android:background">@drawable/ab_transparent_abstyles</item>
+        <item name="android:progressBarStyle">@style/abstyles_ProgressBar</item>
+    </style>
+
+    <style name="abstyles_PopupMenu" parent="@style/Widget.Sherlock.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_abstyles</item>
+    </style>
+
+    <style name="abstyles_DropDownListView" parent="@style/Widget.Sherlock.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_abstyles</item>
+    </style>
+
+    <style name="abstyles_ActionBarTabStyle" parent="@style/Widget.Sherlock.Light.ActionBar.TabView">
+        <item name="background">@drawable/tab_indicator_ab_abstyles</item>
+
+        <item name="android:background">@drawable/tab_indicator_ab_abstyles</item>
+    </style>
+
+    <style name="abstyles_DropDownNav" parent="@style/Widget.Sherlock.Light.Spinner.DropDown.ActionBar">
+        <item name="background">@drawable/spinner_background_ab_abstyles</item>
+
+        <item name="android:background">@drawable/spinner_background_ab_abstyles</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_abstyles</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_abstyles</item>
+    </style>
+
+    <style name="abstyles_ProgressBar" parent="@style/Widget.Sherlock.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_abstyles</item>
+    </style>
+
 </resources>
